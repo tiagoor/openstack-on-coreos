@@ -1,5 +1,5 @@
 # OpenStack on CoreOS Cluster 
-
+# tor@openstack.eti.br
 
 CoreOS provide ease of cluster managing such as fault tolerance and scaleability features.
 OpenStack operation need to high availability features in real world. So I am trying to make docker container according to CoreOS for OpenStack Operation Environments.
