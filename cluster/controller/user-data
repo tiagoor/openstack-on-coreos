@@ -5,7 +5,7 @@ coreos:
     reboot-strategy: off
   etcd2:
     #generate a new token for each unique cluster from https://discovery.etcd.io/new
-    discovery: <token>
+    discovery: f72a9d0a070f823c7cb99f91dbd8a35f
     # multi-region and multi-cloud deployments need to use $public_ipv4
     advertise-client-urls: http://$public_ipv4:2379
     initial-advertise-peer-urls: http://$private_ipv4:2380
@@ -63,7 +63,7 @@ coreos:
         Description=Set the timezone
 
         [Service]
-        ExecStart=/usr/bin/timedatectl set-timezone Asia/Seoul
+        ExecStart=/usr/bin/timedatectl set-timezone America/Sao_Paulo
         RemainAfterExit=yes
         Type=oneshot
 

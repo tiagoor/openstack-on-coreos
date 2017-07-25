@@ -17,7 +17,7 @@ ExecStart=/usr/bin/docker run --hostname=controller --privileged=true \
 --env MYIPADDR=${COREOS_PUBLIC_IPV4} \
 --env ETCDCTL_PEERS=192.168.10.11:4001,192.168.10.12:4001,192.168.10.13:4001 \
 --env HA_MODE=L3_HA \
---env TIME_ZONE=Asia/Seoul \
+--env TIME_ZONE=America/Sao_Paulo \
 --env ADMIN_TOKEN=ADMIN \
 --env REGION_NAME=RegionOne \
 --env MYSQL_ROOT_PASSWORD=openstack \

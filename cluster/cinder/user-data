@@ -45,7 +45,7 @@ coreos:
         Description=Set the timezone
 
         [Service]
-        ExecStart=/usr/bin/timedatectl set-timezone Asia/Seoul
+        ExecStart=/usr/bin/timedatectl set-timezone America/Sao_Paulo
         RemainAfterExit=yes
         Type=oneshot
 
